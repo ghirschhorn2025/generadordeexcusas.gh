@@ -4,32 +4,30 @@
     <meta charset="UTF-8" />
     <link rel="icon" href="./assets/img/4geeks.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
-
-    <!-- Fontawesome is our recomended library for icons -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
+    <title>Generador de Excusas</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <!-- Write your HTML code here, you can delete everything withing the body tags -->
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./assets/img/rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-      </div>
+ 
+ 
+   <body>
+    <div class="header">
+      <h1 id="title">GENERADOR DE EXCUSAS</h1>
+      <p id="author">Creado por G. Hirschhorn</p>
     </div>
-
-    <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
+ 
+ 
+    <div class="bodyExcuse">
+      <p class="partExcuse">Sé que te dije que lo iba a hacer pero...</p>
+      <p class="partExcuse" id="genExcuse">mi perro ayer comió mi tarea</p>
+    </div>
+ 
+ 
+    <div class="footer">
+      <button id="generate">No me lo creo!</button>
+    </div>
+ 
     <script type="module" src="/app.js"></script>
   </body>
 </html>
